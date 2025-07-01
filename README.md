@@ -30,9 +30,5 @@
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/TaskManagerAPI.git
+git clone https://github.com/Deilons/TaskManagerAPI
 ```
-
-
-
-If you'd like, I can help you improve it even further with a more eye-catching intro or GitHub badges for tech stack or deployment status. Let me know if you're up for it!
