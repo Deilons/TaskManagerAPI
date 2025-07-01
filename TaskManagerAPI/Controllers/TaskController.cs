@@ -19,8 +19,13 @@ namespace TaskManagerAPI.Controllers
 
         // GET: api/task
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Task>>> GetTasks()
+        public async Task<ActionResult<IEnumerable<Task>>> GetTasks([FromQuery] string? Priority)
         {
+            var query = _context.Tasks.AsQueryable();
+            if (!string.IsNullOrEmpty(Priority))
+            {
+                query = query.Where(t => t.Priority.Equals(Priority, StringComparison.OrdinalIgnoreCase));
+            }
             return await _context.Tasks.ToListAsync();
         }
         // GET: api/task/{id}
