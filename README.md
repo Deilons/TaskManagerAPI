@@ -1,6 +1,6 @@
 # 📋 TaskManagerAPI
 
-**TaskManagerAPI** is a Web API built with .NET 6 that allows for managing personal tasks using CRUD operations. It was developed as part of my backend developer portfolio with C# and ASP.NET Core.
+**TaskManagerAPI** is a Web API built with .NET that allows for managing personal tasks using CRUD operations. It was developed as part of my backend developer portfolio with C# and ASP.NET Core.
 
 ---
 
