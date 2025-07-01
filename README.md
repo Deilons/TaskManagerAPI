@@ -17,7 +17,7 @@
 
 ## 🛠 Technologies Used
 
-- ASP.NET Core 6 Web API  
+- ASP.NET Core Web API  
 - Entity Framework Core  
 - SQL Server  
 - Swagger (OpenAPI)  
