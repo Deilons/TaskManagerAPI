@@ -1,11 +1,11 @@
 @TaskManagerAPI_HostAddress = http://localhost:5140
 
-GET {{TaskManagerAPI_HostAddress}}/todos/
+GET {{TaskManagerAPI_HostAddress}}/swagger/
 Accept: application/json
 
 ###
 
-GET {{TaskManagerAPI_HostAddress}}/todos/1
+GET {{TaskManagerAPI_HostAddress}}/swagger/1
 Accept: application/json
 
 ###
